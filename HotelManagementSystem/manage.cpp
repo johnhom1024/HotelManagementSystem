@@ -10,6 +10,7 @@ Manage::Manage(QWidget *parent) :
     ui(new Ui::Manage)
 {
     ui->setupUi(this);
+    setWindowTitle("管理员界面");
     CheckAccount  *checkaccount = new CheckAccount;
     AddRoom *addroom1 = new AddRoom;
     RoomState *roomstate = new RoomState;

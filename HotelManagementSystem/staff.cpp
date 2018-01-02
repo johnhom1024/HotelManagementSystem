@@ -24,6 +24,7 @@ Staff::Staff(QWidget *parent) :
     ui(new Ui::Staff)
 {
     ui->setupUi(this);
+    setWindowTitle("员工管理界面");
     QAction *openAction  = new QAction("注销",this);
 
 

@@ -14,6 +14,7 @@ Register::Register(QWidget *parent) :
     ui(new Ui::Register)
 {
     ui->setupUi(this);
+    setWindowTitle("注册界面");
     setAttribute(Qt::WA_DeleteOnClose);
 
     ui->buttonBox->button(QDialogButtonBox::Ok)->setText("注册");
