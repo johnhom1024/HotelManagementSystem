@@ -1,5 +1,2 @@
 # HotelManagementSystem
-1
-2
-
-
+A Project based on C++
